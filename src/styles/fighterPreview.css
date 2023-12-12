@@ -5,9 +5,30 @@
 }
 
 .fighter-preview___right {
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fighter-preview___right img {
+  max-height: 380px;
+  transform: scaleX(-1);
 }
 
 .fighter-preview___left {
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.fighter-preview___left img {
+  max-height: 380px;
+}
+
+.fighter-preview___description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  color: #fff;
+  font-family: 'Arial Black';
 }
